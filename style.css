@@ -30,15 +30,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 60%;
+  max-width: 80%;
 }
 
 .card {
-  /* max-width: 400px; */
-  background: tomato;
+  max-width: 300px;
   flex-grow: 1;
   flex-shrink: 1;
-  padding: 60px 25px 25px 25px;
+  padding: 80px 25px 25px 40px;
 }
 
 .card h2 {
@@ -47,7 +46,25 @@ body {
   color: var(--white);
   text-transform: uppercase;
   font-size: 1.9rem;
-  padding: 15px 0;
+  padding: 25px 0 20px 0;
+}
+
+.card p {
+  max-width: 90%;
+  color: var(--paragraph);
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.5rem;
+  margin-bottom: 6rem;
+}
+
+.card button {
+  padding: 12px 25px;
+  border: none;
+  background: #fff;
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
 .sedans {
@@ -55,8 +72,12 @@ body {
   background-image: url("images/icon-sedans.svg");
   background-repeat: no-repeat;
   background-size: 50px;
-  background-position: 20px 20px;
+  background-position: 40px 40px;
   border-radius: 5px 0 0 5px;
+}
+
+.sedans button {
+  color: var(--orange);
 }
 
 .suvs {
@@ -64,7 +85,11 @@ body {
   background-image: url("images/icon-suvs.svg");
   background-repeat: no-repeat;
   background-size: 50px;
-  background-position: 20px 20px;
+  background-position: 40px 40px;
+}
+
+.suvs button {
+  color: var(--dark-cyan);
 }
 
 .luxury {
@@ -72,6 +97,10 @@ body {
   background-image: url("images/icon-luxury.svg");
   background-repeat: no-repeat;
   background-size: 50px;
-  background-position: 20px 20px;
+  background-position: 40px 40px;
   border-radius: 0px 5px 5px 0px;
+}
+
+.luxury button {
+  color: var(--dark-cyan);
 }
