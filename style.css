@@ -82,7 +82,7 @@ body {
   border-radius: 5px 0 0 5px;
 }
 
-.sedans button {
+.sedans a {
   color: var(--orange);
 }
 
@@ -94,7 +94,7 @@ body {
   background-position: 40px 40px;
 }
 
-.suvs button {
+.suvs a {
   color: var(--dark-cyan);
 }
 
@@ -107,6 +107,18 @@ body {
   border-radius: 0px 5px 5px 0px;
 }
 
-.luxury button {
+.luxury a {
   color: var(--dark-cyan);
+}
+
+/* front-end mentor */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.attribution a {
+  font-size: 11px;
+  color: var(--orange);
+  text-decoration: none;
 }
